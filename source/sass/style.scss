@@ -1,0 +1,22 @@
+@import "visually-hidden";
+@import "centering";
+@import "header";
+@import "hero";
+@import "footer";
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
