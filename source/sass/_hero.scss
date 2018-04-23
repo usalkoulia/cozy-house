@@ -1,8 +1,6 @@
 .hero__centering {
   @include centering;
   background-color: #9ACD32;
-  display: flex;
-  justify-content: flex-start;
 }
 
 .hero__wrapper {
@@ -19,8 +17,5 @@
 }
 
 .hero__text {
-  font-size: 15px;
-  line-height: 24px;
-  color: $font-color;
   margin-bottom: 40px;
 }
