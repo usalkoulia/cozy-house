@@ -1,6 +1,12 @@
+.header {
+  position: absolute;
+  width: 100%;
+  padding-top: 60px;
+}
+
 .header__centering {
   @include centering;
-  background-color: #fd7a91;
+  background-color: transparent;
   border: 2px solid blue;
   display: flex;
   justify-content: space-between;

@@ -1,3 +1,7 @@
+.donation {
+  background-color: $background-color;
+}
+
 .donation__centering {
   @include centering;
   background-color: #D8BFD8;

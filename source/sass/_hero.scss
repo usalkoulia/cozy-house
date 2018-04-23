@@ -1,6 +1,12 @@
+.hero {
+  padding-top: 350px;
+  background-color: #9ACD32;
+  min-height: 930px;
+}
+
 .hero__centering {
   @include centering;
-  background-color: #9ACD32;
+  border: 2px solid green;
 }
 
 .hero__wrapper {
