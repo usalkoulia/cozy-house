@@ -1,3 +1,26 @@
-.hero {
+.hero__centering {
+  @include centering;
   background-color: #9ACD32;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero__wrapper {
+  width: 40%;
+}
+
+.hero__title {
+  font-family: $primary-font;
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 57px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.hero__text {
+  font-size: 15px;
+  line-height: 24px;
+  color: $font-color;
+  margin-bottom: 40px;
 }

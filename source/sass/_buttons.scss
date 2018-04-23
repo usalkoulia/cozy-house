@@ -1,0 +1,17 @@
+.button {
+  height: 52px;
+  width: 205px;
+  background-color: $primary-color;
+  color: #292929;
+  font-family: $primary-font;
+  font-size: 17px;
+  line-height: 52px;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #fddcc4;
+  }
+}
