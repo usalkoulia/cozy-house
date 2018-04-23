@@ -1,13 +1,22 @@
+.slider {
+  width: 960px;
+  margin: 0 105px 60px 105px;
+  overflow: hidden;
+}
+
 .slider__list {
   display: flex;
-  margin-bottom: 60px;
   justify-content: space-around;
+  margin-left: -320px;
+  width: 9999px;
+  transition: margin-left 250ms;
 }
 
 .slider__item {
   background-color: #fff0f5;
   height: 425px;
   border-radius: 10px;
+  display: inline-block;
 }
 
 .slider__image {
