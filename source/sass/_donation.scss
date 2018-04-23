@@ -1,0 +1,51 @@
+.donation__centering {
+  @include centering;
+  background-color: #D8BFD8;
+  padding: 70px 0;
+}
+
+.donation__wrapper {
+  margin-left: 50%;
+  width: 35%;
+}
+
+.donation__title {
+  margin-bottom: 30px;
+}
+
+.donation__label {
+  font-size: 15px;
+  font-family: $primary-font;
+  color: $font-color;
+  position: relative;
+
+  &::before {
+    content: "";
+    height: 24px;
+    width: 30px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    background-image: url("../img/credit-card.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.donation__input {
+  width: 320px;
+  padding: 15px;
+  background-color: $primary-color;
+  border: none;
+  border-radius: 10px;
+  color: #292929;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.donation__text {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b2;
+}
