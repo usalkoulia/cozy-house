@@ -1,7 +1,14 @@
 @import "visually-hidden";
 @import "centering";
+@import "variables";
+@import "mixins";
 @import "header";
+@import "navigation";
 @import "hero";
+@import "about";
+@import "friends";
+@import "help";
+@import "donation";
 @import "footer";
 
 body {
@@ -11,6 +18,10 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+li {
+  list-style-type: none;
 }
 
 *,

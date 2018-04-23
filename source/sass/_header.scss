@@ -1,3 +1,21 @@
-.header {
-  background-color: pink;
+.header__centering {
+  @include centering;
+  background-color: #fd7a91;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-family: $primary-font;
+  font-size: 32px;
+  color: $primary-color;
+  text-decoration: none;
+
+  &--text {
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    color: #ffffff;
+  }
 }
