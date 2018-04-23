@@ -1,3 +1,25 @@
-.help {
+.help__centering {
   background-color: #FFD700;
+  @include centering;
+  padding: 70px 0;
+}
+
+.help__title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.help__list {
+  padding: 0 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.help__item {
+  font-family: $primary-font;
+  color: $font-color;
+  font-size: 20px;
+  line-height: 24px;
+  width: 200px;
 }

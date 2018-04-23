@@ -1,9 +1,19 @@
 .about__centering {
   @include centering;
   background-color: #B0E0E6;
+  padding: 110px 0;
+  // min-height: 590px;
 }
 
 .about__wrapper {
   width: 40%;
   margin-left: 50%;
+}
+
+.about__title {
+  margin-bottom: 40px;
+}
+
+.about__text {
+  margin-bottom: 30px;
 }
