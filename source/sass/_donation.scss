@@ -14,33 +14,32 @@
 }
 
 .donation__label {
-  font-size: 15px;
   font-family: $primary-font;
   color: $font-color;
   position: relative;
-
-  &::before {
-    content: "";
-    height: 24px;
-    width: 30px;
-    top: 10px;
-    left: 10px;
-    position: absolute;
-    background-image: url("../img/credit-card.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
 }
 
 .donation__input {
   width: 320px;
   padding: 15px;
+  padding-left: 57px;
   background-color: $primary-color;
   border: none;
   border-radius: 10px;
+  font-family: $secondary-font;
   color: #292929;
   font-size: 20px;
+  margin-top: 10px;
   margin-bottom: 30px;
+  background-image: url("../img/credit-card.svg");
+  background-repeat: no-repeat;
+  background-position: 17px 11px;
+  background-size: 24px 30px;
+
+  &::placeholder {
+    color: #292929;
+    font-size: 20px;
+  }
 }
 
 .donation__text {

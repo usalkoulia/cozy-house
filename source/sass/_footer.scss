@@ -1,5 +1,7 @@
-.footer {
+.footer__centering {
   background-color: #87CEEB;
+  @include centering;
+  padding: 70px 0;
 }
 
 .footer__wrapper {
@@ -14,4 +16,39 @@
 .footer__column-2 {
   background-color: #FF4500;
   width: 35%;
+}
+
+.footer__title {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.footer__item {
+  padding-left: 60px;
+  background-repeat: no-repeat;
+
+  p {
+    font-family: $secondary-font;
+    color: $primary-color;
+    font-size: 20px;
+    line-height: 45px;
+  }
+
+  &--email {
+    background-image: url("../img/email.svg");
+    background-size: 26px 40px;
+    background-position: 8px;
+  }
+
+  &--phone {
+    background-image: url("../img/phone.svg");
+    background-size: 32px 40px;
+    background-position: 5px;
+  }
+
+  &--pin {
+    background-image: url("../img/pin.svg");
+    background-size: 36px 36px;
+    background-position: 5px 5px;
+  }
 }
