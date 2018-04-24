@@ -6,9 +6,8 @@
 
 .slider__list {
   display: flex;
-  justify-content: space-around;
-  margin-left: -320px;
-  width: auto;
+  // margin-left: -320px;
+  width: 9999px;
   transition: margin-left 250ms;
 }
 
