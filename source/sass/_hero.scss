@@ -1,6 +1,8 @@
 .hero {
   padding-top: 350px;
-  background-color: #9ACD32;
+  background: linear-gradient(to right, rgba(86,71,64,1) 0%,rgba(27,26,28,1) 100%);
+  // background-image: url("../img/dog_hero.png");
+  // background-repeat: no-repeat;
   min-height: 930px;
 }
 
@@ -24,4 +26,5 @@
 
 .hero__text {
   margin-bottom: 40px;
+  color: #cdcdcd;
 }

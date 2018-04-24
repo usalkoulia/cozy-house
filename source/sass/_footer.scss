@@ -1,5 +1,8 @@
+.footer {
+  background: linear-gradient(to right, rgba(86,71,64,1) 0%,rgba(27,26,28,1) 100%);
+}
+
 .footer__centering {
-  background-color: #87CEEB;
   @include centering;
   padding: 70px 0;
   background-image: url("../img/dog_footer.png");
@@ -13,12 +16,10 @@
 }
 
 .footer__column-1 {
-  background-color: #FFA500;
   width: 35%;
 }
 
 .footer__column-2 {
-  background-color: #FF4500;
   width: 35%;
 }
 

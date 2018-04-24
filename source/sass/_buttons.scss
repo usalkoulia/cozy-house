@@ -20,5 +20,9 @@
   &--white {
     background-color: #fafafa;
     border: 2px solid $primary-color;
+
+    &:hover {
+      background-color: $primary-color;
+    }
   }
 }
