@@ -1,9 +1,21 @@
 .hero {
   padding-top: 350px;
   background: linear-gradient(to right, rgba(86,71,64,1) 0%,rgba(27,26,28,1) 100%);
-  // background-image: url("../img/dog_hero.png");
-  // background-repeat: no-repeat;
   min-height: 930px;
+  position: relative;
+  z-index: 5;
+
+  &::after {
+    content: "";
+    height: 924px;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/dog_hero.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
 }
 
 .hero__centering {
@@ -13,6 +25,8 @@
 
 .hero__wrapper {
   width: 40%;
+  z-index: 10;
+  position: relative;
 }
 
 .hero__title {

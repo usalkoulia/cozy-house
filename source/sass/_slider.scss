@@ -50,6 +50,10 @@
   position: absolute;
   top: 50%;
 
+  &:hover {
+    background-color: $primary-color;
+  }
+
   &--left {
     background-image: url("../img/arrow_left.svg");
     background-position: 15px;
