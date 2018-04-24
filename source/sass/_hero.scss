@@ -8,13 +8,15 @@
   &::after {
     content: "";
     height: 924px;
+    width: 70%;
+    max-width: 984px;
     position: absolute;
-    left: 50%;
-    right: 0;
+    right: -10%;
     bottom: 0;
     background-image: url("../img/dog_hero.png");
     background-repeat: no-repeat;
     background-position: right bottom;
+    background-size: 100%;
   }
 }
 
