@@ -4,6 +4,7 @@
   min-height: 930px;
   position: relative;
   z-index: 5;
+  overflow: hidden;
 
   &::after {
     content: "";
@@ -22,7 +23,6 @@
 
 .hero__centering {
   @include centering;
-  border: 2px solid green;
 }
 
 .hero__wrapper {

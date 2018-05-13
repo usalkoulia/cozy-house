@@ -1,6 +1,26 @@
 .navigation {
   display: flex;
   align-items: center;
+
+  &--index {
+    .navigation__link {
+      color: #cdcdcd;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+
+  &--catalog {
+    .navigation__link {
+      color: $font-color;
+
+      &:hover {
+        color: #292929;
+      }
+    }
+  }
 }
 
 .navigation__list {
@@ -15,11 +35,9 @@
 .navigation__link {
   font-size: 15px;
   line-height: 29px;
-  color: #cdcdcd;
   text-decoration: none;
 
   &:hover {
-    color: #ffffff;
     border-bottom: 3px solid $primary-color;
   }
 }

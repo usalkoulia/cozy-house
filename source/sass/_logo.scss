@@ -1,0 +1,27 @@
+.logo {
+  font-family: $primary-font;
+  font-size: 32px;
+  text-decoration: none;
+
+  &--index {
+    color: $primary-color;
+
+    .logo__text {
+      color: #ffffff;
+    }
+  }
+
+  &--catalog {
+    color: $font-color;
+
+    .logo__text {
+      color: #292929;
+    }
+  }
+}
+
+.logo__text {
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+}
