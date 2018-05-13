@@ -7,53 +7,21 @@
 .slider__list {
   display: flex;
   padding: 20px 0;
-  // margin-left: -320px;
   width: 9999px;
   transition: margin-left 250ms;
 }
 
 .slider__item {
-  background-color: #fafafa;
-  height: 425px;
-  border-radius: 10px;
-  width: 270px;
   flex-shrink: 0;
   margin: 0 25px;
-
-  &:hover {
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
-  }
-}
-
-.slider__image {
-  margin-bottom: 20px;
-}
-
-.slider__name {
-  font-family: $primary-font;
-  font-size: 20px;
-  color: $font-color;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 .slider__button-arrow {
-  background-color: transparent;
-  border: 2px solid $primary-color;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  padding: 0;
-  cursor: pointer;
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 15px;
   position: absolute;
   top: 50%;
-
-  &:hover {
-    background-color: $primary-color;
-  }
 
   &--left {
     background-image: url("../img/arrow_left.svg");
