@@ -18,9 +18,9 @@ prew.addEventListener("click", function() {
   list.style.marginLeft = position + "px";
 });
 
-const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
-      animationTime = 100,
-      framesCount = 50;
+var anchors = [].slice.call(document.querySelectorAll('a[href*="#"]'));
+var animationTime = 100;
+var framesCount = 50;
 
 function scrollTo(element, to, duration) {
     if (duration <= 0) return;
