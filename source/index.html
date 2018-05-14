@@ -16,16 +16,16 @@
         <nav class="header__nav navigation navigation--index">
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a class="navigation__link" href="#">About the shelter</a>
+              <a class="navigation__link" href="#about">About the shelter</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="#">Our pets</a>
+              <a class="navigation__link" href="#pets">Our pets</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="#">To help the shelter</a>
+              <a class="navigation__link" href="#help">To help the shelter</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="#">Contacts</a>
+              <a class="navigation__link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -45,7 +45,7 @@
         </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="about__centering">
           <div class="about__wrapper">
             <h3 class="about__title title">About the shelter<br> “Cozy House”</h3>
@@ -55,50 +55,50 @@
         </div>
       </section>
 
-      <section class="friends">
+      <section class="friends" id="pets">
         <div class="friends__centering">
           <h3 class="friends__title title">Our friends who<br> are looking for a house</h3>
           <div class="slider">
             <ul class="slider__list">
-              <li class="slider__item item" id="katrine">
+              <li class="slider__item item">
                 <img class="item__image" src="../img/cat_1.png" alt="cat katrine">
                 <p class="item__name">Katrine</p>
-                <button class="item__button button button--white" type="button" name="button">Learn More</button>
+                <button class="item__button button button--white" type="button" name="button" id="katrine">Learn More</button>
               </li>
-              <li class="slider__item item" id="jennifer">
+              <li class="slider__item item">
                 <img class="item__image" src="../img/dog_1.png" alt="dog jennifer">
                 <p class="item__name">Jennifer</p>
-                <button class="item__button button button--white" type="button" name="button">Learn More</button>
+                <button class="item__button button button--white" type="button" name="button" id="jennifer">Learn More</button>
               </li>
-              <li class="slider__item pets__item item" id="woody">
+              <li class="slider__item pets__item item">
                 <img class="item__image" src="../img/dog_2.png" alt="dog woody">
                 <p class="item__name">Woody</p>
-                <button class="item__button button button--white" type="button" name="button">Learn More</button>
+                <button class="item__button button button--white" type="button" name="button" id="woody">Learn More</button>
               </li>
-              <li class="slider__item pets__item item" id="sophia">
+              <li class="slider__item pets__item item">
                 <img class="item__image" src="../img/dog_3.png" alt="dog sophia">
                 <p class="item__name">Sophia</p>
-                <button class="item__button button button--white" type="button" name="button">Learn More</button>
+                <button class="item__button button button--white" type="button" name="button" id="sophia">Learn More</button>
               </li>
-              <li class="slider__item pets__item item" id="timmy">
+              <li class="slider__item pets__item item">
                 <img class="item__image" src="../img/cat_2.png" alt="cat timmy">
                 <p class="item__name">Timmy</p>
-                <button class="item__button button button--white" type="button" name="button">Learn More</button>
+                <button class="item__button button button--white" type="button" name="button" id="timmy">Learn More</button>
               </li>
-              <li class="slider__item pets__item item" id="charly">
+              <li class="slider__item pets__item item">
                 <img class="item__image" src="../img/dog_4.png" alt="dog charly">
                 <p class="item__name">Charly</p>
-                <button class="item__button button button--white" type="button" name="button">Learn More</button>
+                <button class="item__button button button--white" type="button" name="button" id="charly">Learn More</button>
               </li>
-              <li class="slider__item pets__item item" id="scarlett">
+              <li class="slider__item pets__item item">
                 <img class="item__image" src="../img/dog_5.png" alt="dog scarlett">
                 <p class="item__name">Scarlett</p>
-                <button class="item__button button button--white" type="button" name="button">Learn More</button>
+                <button class="item__button button button--white" type="button" name="button" id="scarlett">Learn More</button>
               </li>
-              <li class="slider__item pets__item item" id="freddie">
+              <li class="slider__item pets__item item">
                 <img class="item__image" src="../img/cat_3.png" alt="cat freddie">
                 <p class="item__name">Freddie</p>
-                <button class="item__button button button--white" type="button" name="button">Learn More</button>
+                <button class="item__button button button--white" type="button" name="button" id="freddie">Learn More</button>
               </li>
             </ul>
             <div class="slider__buttons">
@@ -112,7 +112,7 @@
         </div>
       </section>
 
-      <section class="help">
+      <section class="help" id="help">
         <div class="help__centering">
           <h3 class="help__title title">Than you can help<br> our shelter</h3>
           <ul class="help__list">
@@ -129,7 +129,7 @@
         </div>
       </section>
 
-      <section class="donation">
+      <section class="donation" id="contacts">
         <div class="donation__centering">
           <div class="donation__wrapper">
             <h3 class="donation__title title">In addition, you<br> can make a donation</h3>
@@ -142,6 +142,7 @@
         </div>
       </section>
 
+      <include src="source/_modal.html"></include>
     </main>
 
     <footer class="footer">
@@ -172,6 +173,7 @@
         </div>
       </div>
     </footer>
+    <script src="js/index.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
