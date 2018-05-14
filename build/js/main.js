@@ -1,5 +1,5 @@
 var katrine = {
-  image: "../img/cat_1.png",
+  image: "img/cat_1",
   name: "Katrine",
   breed: "Chartreux Cat",
   age: "2 months",
@@ -9,7 +9,7 @@ var katrine = {
 };
 
 var jennifer = {
-  image: "../img/big_dog_1.png",
+  image: "img/big_dog_1",
   name: "Jennifer",
   breed: "Pooch + Labrador",
   age: "2 months",
@@ -19,7 +19,7 @@ var jennifer = {
 };
 
 var woody = {
-  image: "../img/dog_2.png",
+  image: "img/dog_2",
   name: "Woody",
   breed: "Golden Retriever",
   age: "2 months",
@@ -29,7 +29,7 @@ var woody = {
 };
 
 var sophia = {
-  image: "../img/dog_3.png",
+  image: "img/dog_3",
   name: "Sophi",
   breed: "Pooch + Labrador",
   age: "2 months",
@@ -39,7 +39,7 @@ var sophia = {
 };
 
 var timmy = {
-  image: "../img/cat_2.png",
+  image: "img/cat_2",
   name: "Timmy",
   breed: "Chartreux Cat",
   age: "2 months",
@@ -49,7 +49,7 @@ var timmy = {
 };
 
 var charly = {
-  image: "../img/big_dog_2.png",
+  image: "img/big_dog_2",
   name: "Charly",
   breed: "Pooh",
   age: "2 months",
@@ -59,7 +59,7 @@ var charly = {
 };
 
 var scarlett = {
-  image: "../img/dog_5.png",
+  image: "img/dog_5",
   name: "Scarlett",
   breed: "Pooh",
   age: "2 months",
@@ -69,7 +69,7 @@ var scarlett = {
 };
 
 var freddie = {
-  image: "../img/cat_3.png",
+  image: "img/cat_3",
   name: "Freddie",
   breed: "Chartreux Cat",
   age: "2 months",
@@ -89,6 +89,7 @@ var freddie_button = document.querySelector("#freddie");
 var modal_window = document.querySelector(".modal");
 
 function update_modal(pet) {
+  var image_webp = document.querySelector("#image-webp");
   var image = document.querySelector("#image");
   var name = document.querySelector("#name");
   var breed = document.querySelector("#breed");
@@ -97,7 +98,8 @@ function update_modal(pet) {
   var diseases = document.querySelector("#diseases");
   var parasites = document.querySelector("#parasites");
 
-  image.src = pet.image;
+  image.src = pet.image + ".png";
+  image_webp.srcset = pet.image + ".webp";
   name.innerHTML = pet.name;
   breed.innerHTML = pet.breed;
   age.innerHTML = pet.age;
